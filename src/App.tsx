@@ -1,26 +1,23 @@
-
-import { BrowserRouter } from 'react-router-dom'
-import './App.css'
-import NavBar from './components/NavBar.tsx'
-import Home from './pages/Home.tsx'
-
-
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import "./App.css";
+import NavBar from "./components/NavBar.tsx";
+import Home from "./pages/Home.tsx";
+import Cadastro from "./pages/Cadastro.tsx";
 
 function App() {
- 
-
   return (
     <>
-    <BrowserRouter>
-      <NavBar/>
-      <div className=' bg-secondary'>
-        <Home/>
-      </div>
-      
-    </BrowserRouter>
-    
+      <BrowserRouter>
+        <NavBar />
+        <div className=" bg-secondary">
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/cadastro" element={<Cadastro />} />
+            </Routes>
+        </div>
+      </BrowserRouter>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
