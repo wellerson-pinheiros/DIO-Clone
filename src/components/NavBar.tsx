@@ -5,8 +5,8 @@ import { BiMenu } from "react-icons/bi";
 function NavBar() {
   return (
     <>
-      <header className="w-full  bg-primary p-4 ">
-        <div className="container mx-auto px-8 flex items-center justify-between w-full">
+      <header className="w-full fixed bg-primary p-4 ">
+        <div className="container mx-auto px-10 flex items-center justify-between w-full">
           <Link to="/">
             <img src={logo} alt="Logo DIO" />
           </Link>
