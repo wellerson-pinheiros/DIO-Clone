@@ -4,7 +4,7 @@ function Home() {
   return (
     <>
     <div className="home min-h-screen max-w-full flex ">
-        <div className="flex flex-col   lg:justify-between container mx-auto py-5 px-10 sm:py-10 gap-10 items-center text-center justify-center  lg:text-left lg:flex-row md:">
+        <div className="flex flex-col   lg:justify-between container mx-auto py-5  sm:px-10 sm:py-10 gap-10 items-center text-center justify-center  lg:text-left lg:flex-row text-base">
 
             <div className='flex flex-col gap-2 justify-center w-80 mx-auto sm:mx-0 sm:justify-start'>
                 <h1 className='text-tertiary lg:text-4xl md:text-3xl sm:text-2xl text-3xl font-bold'>Implemente</h1>

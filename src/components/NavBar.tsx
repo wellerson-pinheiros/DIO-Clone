@@ -15,7 +15,7 @@ function NavBar() {
               Home
             </Link>
             <Link
-              to="/"
+              to="/login"
               className="text-white bold rounded-2xl px-2 text-base bg-quaternary transition duration-300 hover:drop-shadow-[0_0_15px_#565656] "
             >
               Entrar{" "}
